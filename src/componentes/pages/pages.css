@@ -1,0 +1,8 @@
+/* Portafolio */
+.portafolioDiv{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0.1%;
+    grid-auto-rows: 300px 300px;
+    grid-column-gap: 0.1%;
+}
