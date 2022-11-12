@@ -1,9 +1,16 @@
 .uno{
     position: relative;
     width: 94%;
-    height: 94%;
-    background-color: rgb(97, 83, 83);
-    top: 3%;
-    left: 3%;
-    color: black;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-Content: center;
+    align-Items: center;
+    flex-Direction: column;
+    background-Color: white;
+    border-Radius: 10px;
+    box-Shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+    padding: 20px;
+    margin-Top: 20px;
+    margin-Bottom: 20px;
 }
