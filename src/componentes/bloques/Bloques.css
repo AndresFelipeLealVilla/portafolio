@@ -14,3 +14,63 @@
     margin-Top: 20px;
     margin-Bottom: 20px;
 }
+
+.uno a span:first-child {
+    display: inline-block;
+    padding: 10px;
+  }
+
+.uno a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+  }
+
+.uno a span:nth-child(2){
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-100%);
+}
+
+.uno a span {
+    transition: transform 0.2s ease-out;
+  }
+
+.uno a:hover span:first-child {
+    transform: translateY(100%);
+  }
+   
+.uno a:hover span:nth-child(2) {
+    transform: none;
+  }
+
+
+.uno[data-animation="to-top"] a span:nth-child(2) {
+    transform: translateY(100%);
+  }
+   
+.uno[data-animation="to-top"] a:hover span:first-child {
+    transform: translateY(-100%);
+  }
+   
+.uno[data-animation="to-right"] a span:nth-child(2) {
+    transform: translateX(-100%);
+  }
+   
+.uno[data-animation="to-right"] a:hover span:first-child {
+    transform: translateX(100%);
+  }
+   
+.uno[data-animation="to-left"] a span:nth-child(2) {
+    transform: translateX(100%);
+  }
+   
+.uno[data-animation="to-left"] a:hover span:first-child {
+    transform: translateX(-100%);
+  }
