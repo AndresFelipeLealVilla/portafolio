@@ -9,6 +9,8 @@ import {Blog} from './componentes/pages/Blog';
 import {Home} from './componentes/pages/Home';
 
 import {Uno} from './componentes/bloques/Uno';
+import {Dos} from './componentes/bloques/Dos';
+import {Tres} from './componentes/bloques/Tres';
 
 function App() {
   return (
@@ -20,6 +22,9 @@ function App() {
         <Route path="/portafolio" element={<Portafolio/>} />
         <Route path="/blog" element={<Blog/>} />
         <Route path='/uno' element={<Uno/>} />
+        <Route path='/dos' element={<Dos/>} />
+        <Route path='/tres' element={<Tres/>} />
+
 
       </Routes>
     </>

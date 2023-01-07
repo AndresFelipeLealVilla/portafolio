@@ -1,11 +1,9 @@
-.uno{
+.division{
     position: relative;
     width: 94%;
     height: 100%;
-    margin: auto;
     display: flex;
-    justify-Content: center;
-    align-Items: center;
+    justify-content: center;
     flex-Direction: column;
     background-Color: white;
     border-Radius: 10px;
@@ -13,64 +11,120 @@
     padding: 20px;
     margin-Top: 20px;
     margin-Bottom: 20px;
-}
-
-.uno a span:first-child {
-    display: inline-block;
-    padding: 10px;
-  }
-
-.uno a {
-    display: block;
-    position: relative;
     overflow: hidden;
-  }
-
-.uno a span:nth-child(2){
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transform: translateY(-100%);
+    cursor: pointer;
 }
 
-.uno a span {
-    transition: transform 0.2s ease-out;
+
+.imagen-insta, .fake, .emocion {
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
   }
 
-.uno a:hover span:first-child {
-    transform: translateY(100%);
-  }
-   
-.uno a:hover span:nth-child(2) {
-    transform: none;
-  }
+.division .texto{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background: rgba(11,103,123,0.6);
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+
+.division:hover .texto{
+   opacity: 1;
+   visibility: visible;
+}
+
+.division:hover .texto h3{
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+.division .texto h3{
+  color: white;
+  font-weight: 400px;
+  margin-bottom: 120px;
+  transition: all 500ms ease-out;
+  margin-top: 30px;
+}
+
+.division .texto p{
+  color: white;
+  font-size: 15px;
+  line-height: 1.5;
+  width: 100%;
+  max-width: 200px;
+  margin: auto;
+}
+
+.division:hover img {
+  transform: scale(1.3);
+}
 
 
-.uno[data-animation="to-top"] a span:nth-child(2) {
-    transform: translateY(100%);
-  }
-   
-.uno[data-animation="to-top"] a:hover span:first-child {
-    transform: translateY(-100%);
-  }
-   
-.uno[data-animation="to-right"] a span:nth-child(2) {
-    transform: translateX(-100%);
-  }
-   
-.uno[data-animation="to-right"] a:hover span:first-child {
-    transform: translateX(100%);
-  }
-   
-.uno[data-animation="to-left"] a span:nth-child(2) {
-    transform: translateX(100%);
-  }
-   
-.uno[data-animation="to-left"] a:hover span:first-child {
-    transform: translateX(-100%);
-  }
+
+
+
+
+
+/* Uno (Instagram) */
+.Uno, .Dos{
+  background-color: rgb(235, 235, 235);
+  color:#1b3555;
+}
+
+
+.IntroUno, .IntroDos, .IntroTres{
+    position: relative;
+    width: 80%;
+    height: 100%;
+    padding: 20px;
+    margin-Top: 0px;
+    left: 10%;
+    font-size: 20px;
+}
+
+.TituloUno, .TituloDos, .TituloTres{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  margin-Top: 10px;
+  left: 22%;
+}
+
+.Contenido{
+  position: relative;
+    width: 80%;
+    height: 100%;
+    padding: 20px;
+    margin-Top: 0px;
+    left: 10%;
+    font-size: 20px;
+}
+
+.imgUno, .imgDos, .imgTres{
+  position: relative;
+    width: 80%;
+    height: 100%;
+    padding: 10px;
+    margin-Top: 0px;
+    left: 10%;
+    font-size: 20px;
+}
+
+
+.graficos{
+  position: relative;
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+    margin-Top: 0px;
+    left: 10%;
+    font-size: 20px;
+}
