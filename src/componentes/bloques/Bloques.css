@@ -35,6 +35,7 @@
   text-align: center;
 }
 
+
 .division:hover .texto{
    opacity: 1;
    visibility: visible;
@@ -56,9 +57,9 @@
 .division .texto p{
   color: white;
   font-size: 15px;
-  line-height: 1.5;
+  line-height: 1.2;
   width: 100%;
-  max-width: 200px;
+  max-width: 500px;
   margin: auto;
 }
 

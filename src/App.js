@@ -11,6 +11,9 @@ import {Home} from './componentes/pages/Home';
 import {Uno} from './componentes/bloques/Uno';
 import {Dos} from './componentes/bloques/Dos';
 import {Tres} from './componentes/bloques/Tres';
+import {Cuatro} from './componentes/bloques/Cuatro';
+import {Cinco} from './componentes/bloques/Cinco';
+
 
 function App() {
   return (
@@ -24,8 +27,8 @@ function App() {
         <Route path='/uno' element={<Uno/>} />
         <Route path='/dos' element={<Dos/>} />
         <Route path='/tres' element={<Tres/>} />
-
-
+        <Route path='/cuatro' element={<Cuatro/>} />
+        <Route path='/cinco' element={<Cinco/>} />
       </Routes>
     </>
   );
