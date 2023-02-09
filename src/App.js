@@ -13,6 +13,7 @@ import {Dos} from './componentes/bloques/Dos';
 import {Tres} from './componentes/bloques/Tres';
 import {Cuatro} from './componentes/bloques/Cuatro';
 import {Cinco} from './componentes/bloques/Cinco';
+import {Seis} from './componentes/bloques/Seis';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         <Route path='/tres' element={<Tres/>} />
         <Route path='/cuatro' element={<Cuatro/>} />
         <Route path='/cinco' element={<Cinco/>} />
+        <Route path='/seis' element={<Seis/>} />
       </Routes>
     </>
   );
