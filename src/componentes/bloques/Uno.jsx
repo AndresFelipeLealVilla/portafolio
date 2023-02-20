@@ -31,16 +31,47 @@ import insta29 from '../img/insta29.PNG'
 import insta30 from '../img/insta30.PNG'
 import insta31 from '../img/insta31.PNG'
 
+import { useState } from 'react'
+
 
 export const Uno = () => {
+
+  const [boton, setBoton] = useState(1)
+
+
+const handleClick = () => {
+  if (boton === 0) {
+    setBoton(1);
+
+  } if (boton === 1) {
+    setBoton(0);
+
+  }
+}
+
   return (
     <div className='Uno'>
-      <p className='IntroUno'>El análisis de datos en redes sociales genera información específica relacionada con el consumo de 
-        productos y servicios, el sentimiento de los usuarios sobre empresas, productos o el nivel de satisfacción 
-        social o política. Te permite generar y refinar campañas de acuerdo a objetivos específicos. Además, los 
-        resultados son medibles, por lo que el análisis de datos es esencial para determinar el ROI (Return on Investment) de cualquier 
-        campaña en las redes sociales.
-      </p>
+
+<button className='BotonIdioma' onClick={handleClick}>
+        {boton === 0 ? 'English' : 'Español'}
+      </button>
+
+      {boton === 0 ?
+          <p className='IntroUno'>El análisis de datos en redes sociales genera información específica 
+              relacionada con el consumo de productos y servicios, el sentimiento de los usuarios sobre 
+              empresas, productos o el nivel de satisfacción social o política. Te permite generar y 
+              refinar campañas de acuerdo a objetivos específicos. Además, los resultados son medibles, 
+              por lo que el análisis de datos es esencial para determinar el ROI (Return on Investment) 
+              de cualquier campaña en las redes sociales.
+          </p>
+      :   <p className='IntroUno'>Data analysis in social networks generates specific information 
+              related to product and service consumption, user related to the consumption of products 
+              and services, user sentiment about companies, products or the level of social or political 
+              satisfaction. companies, products or the level of social or political satisfaction. It allows 
+              you to generate and refine campaigns according to specific objectives. In addition, the results 
+              are measurable, so data analysis is essential to determine the ROI (Return on Investment) of any 
+              social media campaign. of any social media campaign.
+          </p>}
 
       <p className='IntroUno'>Instagram es una de las aplicaciones de redes sociales más populares en la actualidad. 
         Las personas que la usan profesionalmente lo hacen para promocionar su negocio, crear una cartera, 

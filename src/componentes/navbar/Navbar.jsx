@@ -1,19 +1,21 @@
 import React from 'react';
 import MyLogo from '../img/MyLogo2.png';
+
 import {
   Nav,
   NavLink,
   Bars,
   NavMenu,
-  NavBtn,
-  NavBtnLink
 } from './Elements';
 import './Navbar.css';
 
-
 const Navbar = () => {
+
   return (
-    <>
+
+    
+    
+    <div>
       <Nav>
         <NavLink to="/">
           <img src={MyLogo} alt='logo' className='Logo' />
@@ -35,11 +37,8 @@ const Navbar = () => {
           {/* Second Nav */}
           {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
         </NavMenu>
-        <NavBtn>
-          <NavBtnLink to='/signin'>Sign In</NavBtnLink>
-        </NavBtn>
       </Nav>
-    </>
+    </div>
   );
 };
 
