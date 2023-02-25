@@ -112,13 +112,107 @@ export const Portafolio = () => {
       </div>
       </Link>
 
+      <Link to='/siete'>
       <div className='division'>
+        <figure>
+            <img src={autos} alt='fake' className='emocion' />
 
+            <div className='texto'>
+            <h3>Análisis exploratorio de datos</h3>
+            <p>El EDA (análisis exploratorio de datos) es una etapa importante en el análisis de datos 
+              que implica la revisión y el entendimiento de los datos. Es un proceso de descubrimiento 
+              para obtener una comprensión básica de los datos, identificar patrones y relaciones, 
+              detectar outliers y problemas de calidad de los datos, y preparar los datos para futuros 
+              análisis.</p>
+            </div>
+        </figure>
       </div>
+      </Link>
 
+      <Link to='/ocho'>
       <div className='division'>
+        <figure>
+            <img src={autos} alt='fake' className='emocion' />
 
+            <div className='texto'>
+            <h3>Análisis exploratorio de datos</h3>
+            <p>El EDA (análisis exploratorio de datos) es una etapa importante en el análisis de datos 
+              que implica la revisión y el entendimiento de los datos. Es un proceso de descubrimiento 
+              para obtener una comprensión básica de los datos, identificar patrones y relaciones, 
+              detectar outliers y problemas de calidad de los datos, y preparar los datos para futuros 
+              análisis.</p>
+            </div>
+        </figure>
       </div>
+      </Link>
+
+      <Link to='/nueve'>
+      <div className='division'>
+        <figure>
+            <img src={autos} alt='fake' className='emocion' />
+
+            <div className='texto'>
+            <h3>Análisis exploratorio de datos</h3>
+            <p>El EDA (análisis exploratorio de datos) es una etapa importante en el análisis de datos 
+              que implica la revisión y el entendimiento de los datos. Es un proceso de descubrimiento 
+              para obtener una comprensión básica de los datos, identificar patrones y relaciones, 
+              detectar outliers y problemas de calidad de los datos, y preparar los datos para futuros 
+              análisis.</p>
+            </div>
+        </figure>
+      </div>
+      </Link>
+
+      <Link to='/diez'>
+      <div className='division'>
+        <figure>
+            <img src={autos} alt='fake' className='emocion' />
+
+            <div className='texto'>
+            <h3>Análisis exploratorio de datos</h3>
+            <p>El EDA (análisis exploratorio de datos) es una etapa importante en el análisis de datos 
+              que implica la revisión y el entendimiento de los datos. Es un proceso de descubrimiento 
+              para obtener una comprensión básica de los datos, identificar patrones y relaciones, 
+              detectar outliers y problemas de calidad de los datos, y preparar los datos para futuros 
+              análisis.</p>
+            </div>
+        </figure>
+      </div>
+      </Link>
+
+      <Link to='/once'>
+      <div className='division'>
+        <figure>
+            <img src={autos} alt='fake' className='emocion' />
+
+            <div className='texto'>
+            <h3>Análisis exploratorio de datos</h3>
+            <p>El EDA (análisis exploratorio de datos) es una etapa importante en el análisis de datos 
+              que implica la revisión y el entendimiento de los datos. Es un proceso de descubrimiento 
+              para obtener una comprensión básica de los datos, identificar patrones y relaciones, 
+              detectar outliers y problemas de calidad de los datos, y preparar los datos para futuros 
+              análisis.</p>
+            </div>
+        </figure>
+      </div>
+      </Link>
+
+      <Link to='/doce'>
+      <div className='division'>
+        <figure>
+            <img src={autos} alt='fake' className='emocion' />
+
+            <div className='texto'>
+            <h3>Análisis exploratorio de datos</h3>
+            <p>El EDA (análisis exploratorio de datos) es una etapa importante en el análisis de datos 
+              que implica la revisión y el entendimiento de los datos. Es un proceso de descubrimiento 
+              para obtener una comprensión básica de los datos, identificar patrones y relaciones, 
+              detectar outliers y problemas de calidad de los datos, y preparar los datos para futuros 
+              análisis.</p>
+            </div>
+        </figure>
+      </div>
+      </Link>
       
     </div>
   );

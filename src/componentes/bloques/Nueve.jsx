@@ -64,7 +64,7 @@ import cliente62 from '../img/cliente62.PNG'
 
 import { useState } from 'react'
 
-export const Cinco = () => {
+export const Nueve = () => {
 
   const [boton, setBoton] = useState(1)
 
