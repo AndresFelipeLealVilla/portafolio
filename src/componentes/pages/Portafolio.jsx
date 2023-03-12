@@ -7,6 +7,10 @@ import insta from '../img/insta.png';
 import fake from '../img/NoticiaFalsa.jpg';
 import emocion from '../img/emociones2.jpg';
 import autos from '../img/autos.jpg';
+import segmentacion from '../img/segmentacion.png'
+import recomendacion from '../img/recomendacion.png'
+import ubertema from '../img/ubertema.png'
+import tarjeta from '../img/tarjeta.jpg'
 
 export const Portafolio = () => {
   return (
@@ -81,15 +85,15 @@ export const Portafolio = () => {
       <Link to='/cinco'>
       <div className='division'>
         <figure>
-            <img src={autos} alt='fake' className='emocion' />
+            <img src={segmentacion} alt='fake' className='emocion' />
 
             <div className='texto'>
-            <h3>Análisis exploratorio de datos</h3>
-            <p>El EDA (análisis exploratorio de datos) es una etapa importante en el análisis de datos 
-              que implica la revisión y el entendimiento de los datos. Es un proceso de descubrimiento 
-              para obtener una comprensión básica de los datos, identificar patrones y relaciones, 
-              detectar outliers y problemas de calidad de los datos, y preparar los datos para futuros 
-              análisis.</p>
+            <h3>Segmentación de cliente</h3>
+            <p>La ciencia de datos juega un papel crucial en la segmentación de clientes, pues, permite a 
+              las empresas analizar grandes cantidades de datos para identificar patrones y tendencias en el 
+              comportamiento de los clientes. Con el uso de técnicas de análisis de datos avanzadas, como 
+              el aprendizaje automático, las empresas pueden segmentar a los clientes 
+              de manera más precisa.</p>
             </div>
         </figure>
       </div>
@@ -98,15 +102,15 @@ export const Portafolio = () => {
       <Link to='/seis'>
       <div className='division'>
         <figure>
-            <img src={autos} alt='fake' className='emocion' />
+            <img src={recomendacion} alt='fake' className='emocion' />
 
             <div className='texto'>
-            <h3>Análisis exploratorio de datos</h3>
-            <p>El EDA (análisis exploratorio de datos) es una etapa importante en el análisis de datos 
-              que implica la revisión y el entendimiento de los datos. Es un proceso de descubrimiento 
-              para obtener una comprensión básica de los datos, identificar patrones y relaciones, 
-              detectar outliers y problemas de calidad de los datos, y preparar los datos para futuros 
-              análisis.</p>
+            <h3>Recomendación de peliculas</h3>
+            <p>La recomendación de películas es un proceso que se utiliza para sugerir películas a los 
+              usuarios según sus preferencias y gustos. La ciencia de datos es fundamental en este 
+              proceso ya que permite a las plataformas de streaming analizar grandes cantidades de datos 
+              para identificar patrones y tendencias en el comportamiento de los usuarios y, en 
+              consecuencia, sugerir películas relevantes.</p>
             </div>
         </figure>
       </div>
@@ -115,15 +119,13 @@ export const Portafolio = () => {
       <Link to='/siete'>
       <div className='division'>
         <figure>
-            <img src={autos} alt='fake' className='emocion' />
+            <img src={ubertema} alt='fake' className='emocion' />
 
             <div className='texto'>
-            <h3>Análisis exploratorio de datos</h3>
-            <p>El EDA (análisis exploratorio de datos) es una etapa importante en el análisis de datos 
-              que implica la revisión y el entendimiento de los datos. Es un proceso de descubrimiento 
-              para obtener una comprensión básica de los datos, identificar patrones y relaciones, 
-              detectar outliers y problemas de calidad de los datos, y preparar los datos para futuros 
-              análisis.</p>
+            <h3>Análisis de datos para Uber</h3>
+            <p>EL uso del analisis de datos para uber ayuda a mejorar la toma de decisiones con respecto 
+              a viajes, conductores, pasajeros y otras variables. También ayuda a detectar fraudes y
+              mejorar la eficiencia operativa.</p>
             </div>
         </figure>
       </div>
@@ -132,83 +134,15 @@ export const Portafolio = () => {
       <Link to='/ocho'>
       <div className='division'>
         <figure>
-            <img src={autos} alt='fake' className='emocion' />
+            <img src={tarjeta} alt='fake' className='emocion' />
 
             <div className='texto'>
-            <h3>Análisis exploratorio de datos</h3>
-            <p>El EDA (análisis exploratorio de datos) es una etapa importante en el análisis de datos 
-              que implica la revisión y el entendimiento de los datos. Es un proceso de descubrimiento 
-              para obtener una comprensión básica de los datos, identificar patrones y relaciones, 
-              detectar outliers y problemas de calidad de los datos, y preparar los datos para futuros 
-              análisis.</p>
-            </div>
-        </figure>
-      </div>
-      </Link>
-
-      <Link to='/nueve'>
-      <div className='division'>
-        <figure>
-            <img src={autos} alt='fake' className='emocion' />
-
-            <div className='texto'>
-            <h3>Análisis exploratorio de datos</h3>
-            <p>El EDA (análisis exploratorio de datos) es una etapa importante en el análisis de datos 
-              que implica la revisión y el entendimiento de los datos. Es un proceso de descubrimiento 
-              para obtener una comprensión básica de los datos, identificar patrones y relaciones, 
-              detectar outliers y problemas de calidad de los datos, y preparar los datos para futuros 
-              análisis.</p>
-            </div>
-        </figure>
-      </div>
-      </Link>
-
-      <Link to='/diez'>
-      <div className='division'>
-        <figure>
-            <img src={autos} alt='fake' className='emocion' />
-
-            <div className='texto'>
-            <h3>Análisis exploratorio de datos</h3>
-            <p>El EDA (análisis exploratorio de datos) es una etapa importante en el análisis de datos 
-              que implica la revisión y el entendimiento de los datos. Es un proceso de descubrimiento 
-              para obtener una comprensión básica de los datos, identificar patrones y relaciones, 
-              detectar outliers y problemas de calidad de los datos, y preparar los datos para futuros 
-              análisis.</p>
-            </div>
-        </figure>
-      </div>
-      </Link>
-
-      <Link to='/once'>
-      <div className='division'>
-        <figure>
-            <img src={autos} alt='fake' className='emocion' />
-
-            <div className='texto'>
-            <h3>Análisis exploratorio de datos</h3>
-            <p>El EDA (análisis exploratorio de datos) es una etapa importante en el análisis de datos 
-              que implica la revisión y el entendimiento de los datos. Es un proceso de descubrimiento 
-              para obtener una comprensión básica de los datos, identificar patrones y relaciones, 
-              detectar outliers y problemas de calidad de los datos, y preparar los datos para futuros 
-              análisis.</p>
-            </div>
-        </figure>
-      </div>
-      </Link>
-
-      <Link to='/doce'>
-      <div className='division'>
-        <figure>
-            <img src={autos} alt='fake' className='emocion' />
-
-            <div className='texto'>
-            <h3>Análisis exploratorio de datos</h3>
-            <p>El EDA (análisis exploratorio de datos) es una etapa importante en el análisis de datos 
-              que implica la revisión y el entendimiento de los datos. Es un proceso de descubrimiento 
-              para obtener una comprensión básica de los datos, identificar patrones y relaciones, 
-              detectar outliers y problemas de calidad de los datos, y preparar los datos para futuros 
-              análisis.</p>
+            <h3>Detección de fraude con tarjetas de crédito</h3>
+            <p> Los métodos tradicionales de detección de fraudes son limitados en términos de velocidad, 
+                precisión y escalabilidad, lo que ha llevado a la necesidad de métodos más avanzados y 
+                automatizados. La ciencia de datos es útil porque permite la creación de modelos 
+                predictivos que pueden analizar grandes cantidades de datos en tiempo real y detectar 
+                patrones y anomalías.</p>
             </div>
         </figure>
       </div>
