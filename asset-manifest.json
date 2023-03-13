@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.a3f9bd0e.css",
-    "main.js": "/portafolio/static/js/main.787b9d17.js",
+    "main.js": "/portafolio/static/js/main.72c3a7fa.js",
     "static/media/ubertema.png": "/portafolio/static/media/ubertema.8ae0c3a2fbaf43e1e1f4.png",
     "static/media/insta.png": "/portafolio/static/media/insta.1a725292862f461e7917.png",
     "static/media/autos.jpg": "/portafolio/static/media/autos.eadfe90322619c2efca6.jpg",
@@ -283,10 +283,10 @@
     "static/media/cliente13.PNG": "/portafolio/static/media/cliente13.00b31cb5af8027037468.PNG",
     "index.html": "/portafolio/index.html",
     "main.a3f9bd0e.css.map": "/portafolio/static/css/main.a3f9bd0e.css.map",
-    "main.787b9d17.js.map": "/portafolio/static/js/main.787b9d17.js.map"
+    "main.72c3a7fa.js.map": "/portafolio/static/js/main.72c3a7fa.js.map"
   },
   "entrypoints": [
     "static/css/main.a3f9bd0e.css",
-    "static/js/main.787b9d17.js"
+    "static/js/main.72c3a7fa.js"
   ]
 }
