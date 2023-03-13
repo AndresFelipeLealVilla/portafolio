@@ -1,5 +1,6 @@
 import React from 'react';
 import MyLogo from '../img/MyLogo2.png';
+import { About } from '../pages/About';
 
 import {
   Nav,
@@ -23,13 +24,10 @@ const Navbar = () => {
         <Bars />
         <NavMenu>
           <NavLink to="/" activeStyle>
-            Inicio
-          </NavLink>
-          <NavLink to="about" activeStyle>
-            Sobre Mí
+            About me
           </NavLink>
           <NavLink to="portafolio" activeStyle>
-            Portafolio
+            Portfolio
           </NavLink>
           <NavLink to="blog" activeStyle>
             Blog
