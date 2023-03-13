@@ -149,3 +149,26 @@
   cursor: pointer;
   transition: all 500ms ease-out;
 }
+
+
+.BotonIdioma2{
+  position: absolute;
+  width: 8%;
+  height: 7%;
+  left: 45%;
+  top: 1.5%;
+  z-index: 1;
+  padding: 20px;
+  margin-Top: 10px;
+  text-align: center;
+  padding: 10px 25px; 
+
+  background-color: #1b3555;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 500ms ease-out;
+}
