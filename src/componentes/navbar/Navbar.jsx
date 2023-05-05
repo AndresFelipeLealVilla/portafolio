@@ -13,9 +13,6 @@ import './Navbar.css';
 const Navbar = () => {
 
   return (
-
-    
-    
     <div>
       <Nav>
         <NavLink to="/">
